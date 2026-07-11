@@ -233,3 +233,30 @@ body {
   padding: 0 20px 16px 20px;
   color: #444;
 }
+
+.landing-header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.landing-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+
+.landing-card {
+  display: block;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.landing-card:hover {
+  background-color: #f5f5f5;
+}
